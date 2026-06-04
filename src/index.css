@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: "Libre Franklin", "Helvetica Neue", Helvetica, sans-serif;
+  background: #f4f6f9;
+  color: #1a2233;
+  -webkit-font-smoothing: antialiased;
+}
+::-webkit-scrollbar { height: 8px; width: 8px; }
+::-webkit-scrollbar-thumb { background: #c8cfdb; border-radius: 4px; }
+select, input, textarea, button { font-family: inherit; }
